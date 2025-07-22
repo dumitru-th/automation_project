@@ -10,23 +10,23 @@ def belt_generator(kup):
     if kup==10:
         return "Alba"
     elif kup==9:
-        return "Alb + Galbena"
+        return "Alb cu Galben"
     elif kup==8:
         return "Galbena"
     elif kup==7:
-        return "Galbena+Verde"
+        return "Galbena cu Verde"
     elif kup==6:
         return "Verde"
     elif kup==5:
-        return "Verde+Albastru"
+        return "Verde cu Albastru"
     elif kup==4:
-        return "Albastru"
+        return "Albastra"
     elif kup==3:
-        return "Albastru+Rosu"
+        return "Albastra cu Rosu"
     elif kup==2:
         return "Rosie"
     elif kup==1:
-        return "Rosu+Negru"
+        return "Rosie cu Negru"
     else:
         return ""
     
